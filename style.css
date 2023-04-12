@@ -1,0 +1,606 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Shantell+Sans:wght@300&display=swap');
+
+* {
+    font-family: 'IBM Plex Sans', sans-serif;
+
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    height: 15vh;
+    display: flex;
+    padding: 0 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fa {
+    display: none;
+}
+
+.nav-links {
+    flex: 1;
+    text-align: right;
+
+}
+
+.nav-links ul li {
+
+    list-style: none;
+    display: inline-block;
+    padding: 8px 48px;
+    position: relative;
+}
+
+.nav-links ul li a {
+    color: rgb(19, 13, 56);
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+
+    font-family: 'IBM Plex Sans', sans-serif;
+
+}
+
+.nav-links ul li a:hover,
+.nav-links ul .active {
+    color: rgb(255, 81, 0);
+}
+
+/* background image */
+.header {
+    min-height: 85vh;
+    width: 100%;
+
+    background-image: url(assets/Rectangle1.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.text-box {
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text-box h1 {
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.text-box p {
+    margin: 10px 0 40px;
+    font-size: 30px;
+}
+
+.text-box1 .none {
+    display: none;
+}
+
+.none {
+    display: none;
+}
+
+.text-box .bold {
+    font-weight: bold;
+    margin-bottom: -1px;
+}
+
+.hero-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 15px 64px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 30px;
+    margin-left: 20px;
+    z-index: 10;
+    transition: 1s;
+}
+
+.hero-btn:hover {
+    background: rgb(255, 81, 0);
+    border-color: rgb(255, 81, 0);
+
+}
+
+.images {
+    display: inline-block;
+    position: absolute;
+    z-index: 1;
+    /* margin-top: -100px; */
+    margin-top: -15vh;
+
+}
+
+.images .img1 {
+    z-index: 3;
+
+    /* padding-bottom: 100px; */
+
+    margin-left: 30vw;
+
+}
+
+.images .img2 {
+    position: absolute;
+    z-index: 1;
+    /* margin-top: 60px; */
+    margin-top: 8vh;
+    /* padding-bottom:-50px; */
+    margin-left: -3vw;
+}
+
+hr {
+    background: #b1b1b1;
+    height: 3px;
+    width: 70%;
+    border: 0;
+    margin: 75vh 15vw;
+}
+
+.how-app-works {
+    margin-top: -68vh;
+    display: flex;
+    justify-content: center;
+}
+
+.how-app-works h1 {
+    font-size: 3em;
+    color: rgb(55, 54, 54);
+}
+
+.steps {
+    margin-top: 10vh;
+    margin-left: 10vw;
+}
+
+.rect {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    /* margin-right:20vw ; */
+
+}
+
+.rect1 {
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+.one .content {
+    margin-top: 10%;
+}
+
+.content h3 {
+    color: rgb(255, 60, 0);
+    font-size: 30px;
+    padding-bottom: 2vw;
+}
+
+.content h1 {
+    font-size: 50px;
+    color: rgb(12, 7, 57);
+}
+
+.content p {
+    color: rgb(95, 94, 94);
+    font-size: 25px;
+    padding-top: 1vw;
+}
+
+.last {
+    min-height: 75vh;
+    width: 100%;
+
+    background-image: url(assets/Rectangle2.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.text-box1 {
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text-box1 h1 {
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.text-box1 p {
+    margin: 10px 0 40px;
+    font-size: 30px;
+}
+
+.hero-btn1 {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 15px 64px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 20px;
+    margin-left: 20px;
+    z-index: 10;
+    transition: 1s;
+}
+
+.hero-btn1:hover {
+    background: rgb(255, 81, 0);
+    border-color: rgb(255, 81, 0);
+
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 8vh;
+    margin-bottom: 5vh;
+}
+
+.links img {
+    padding: 20px;
+}
+
+.msg {
+    color: rgb(72, 71, 71);
+}
+
+.msghid {
+    display: none;
+}
+
+@media (min-width:400px)and(max-width:750px) {
+
+    .images {
+        margin-left: -30vw;
+        padding-right: 40vw;}
+
+
+    
+
+    .images.img1 {
+        margin-right: 0vw;
+        margin-top: 5vh;}
+
+    .images.img2 {
+        margin-left: -8vw;
+        margin-right: 0;}
+
+    .content h3 {
+        font-size: 20px;}
+
+    .content h1 {
+        font-size: 20px;
+}
+
+    .content p {
+        font-size: 20px;
+    }
+
+    .steps {
+        padding: 0;
+
+
+    }
+
+    .rect {
+        display: block;
+        margin-bottom: 5%;
+        padding: 0;
+
+        text-align: center;
+
+
+    }
+
+    .content h3 {
+        margin-top: -20%;
+    }
+
+    .text-box h1 {
+        font-size: 40px;
+        font-weight: bold;
+
+
+    }
+
+    .text-box .bold {
+        font-size: 20px;
+    }
+
+    /* body{
+    overflow-x: hidden;
+   } */
+    .rect img {
+        width: 80vw;
+    }
+}
+
+@media (max-width:400px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .header {
+        min-height: 85vh;
+        width: 100%;
+        background: white;
+        position: relative;
+    }
+
+
+    .text-box h1 {
+        color: #080b3f;
+        font-size: 32px;
+        font-weight: bold;
+        margin-top: 10%;
+        height: 30vh;
+    }
+
+    .text-box .bold {
+        padding-top: 0;
+        margin-top: 8vh;
+
+        color: #737272;
+        font-size: 2em;
+    }
+
+    .text-box p {
+        color: #737272;
+        margin-top: -15vh;
+        font-size: 25px;
+
+    }
+
+    .hero-btn {
+        color: rgb(247, 68, 2);
+        border: 1px solid rgb(247, 68, 2);
+        margin-top: 10px;
+    }
+
+    .hero-btn:hover {
+        background: rgb(255, 81, 0);
+        border-color: rgb(249, 248, 248);
+        color: aliceblue;
+
+    }
+
+    .images .img1 {
+        z-index: 3;
+
+        /* padding-bottom: 100px; */
+
+        margin-left: 0;
+        height: 80%;
+        width: 80%;
+    }
+
+    .images .img2 {
+        margin-left: -10vw;
+        margin-right: 0;
+        height: 75%;
+        width: 65%;
+        margin-top: -1%;
+    }
+
+    hr {
+
+        margin-top: 50vh;
+    }
+
+    .how-app-works h1 {
+        font-size: 2em;
+    }
+
+    .content h3 {
+        font-size: 20px;
+    }
+
+    .content h1 {
+        font-size: 20px;
+    }
+
+    .content p {
+        font-size: 20px;
+    }
+
+    .steps {
+        padding: 0;
+
+
+    }
+
+    .rect {
+        display: block;
+        flex-direction: row-reverse;
+        margin-bottom: 5%;
+        padding: 0;
+
+        text-align: center;
+
+
+    }
+
+    .content h3 {
+        margin-top: -20%;
+    }
+
+    .rect img {
+        width: 100vw;
+
+        margin-left: -10vw;
+
+    }
+
+    .content h3 {
+        color: rgb(255, 60, 0);
+        font-size: 40px;
+        padding-bottom: 2vw;
+    }
+
+    .content h1 {
+        font-size: 40px;
+        color: rgb(12, 7, 57);
+    }
+
+    .content p {
+        color: rgb(95, 94, 94);
+        font-size: 35px;
+        padding-top: 1vw;
+    }
+
+    /* last-image */
+    .last {
+
+        background: rgb(47, 47, 84);
+    }
+
+    .text-box1 h1 {
+        margin-top: 30vh;
+        margin-bottom: 5vh;
+        font-size: 50px;
+
+    }
+
+    .viv {
+        display: none;
+    }
+
+    .tb {
+        display: none;
+    }
+
+    .none {
+        display: flex;
+        justify-content: center;
+    }
+
+    .text-box1 .none {
+        display: inline;
+
+    }
+
+    .text-box1 p {
+        margin: 30px;
+        color: rgb(162, 160, 160);
+    }
+
+    .text-box1 {
+        width: 90%;
+        color: white;
+        position: absolute;
+        top: 30%;
+    }
+
+    #btn5,
+    #btn6 {
+        display: inline-block;
+
+        padding: 10px 30px;
+
+        margin-top: 10vh;
+
+        border-radius: 10px;
+        margin-left: 0px;
+
+    }
+
+    .logob {
+        display: none;
+    }
+
+    .msgviv {
+        display: none;
+    }
+
+    .msghid {
+        display: block;
+        text-align: center;
+
+    }
+
+    .links {
+        display: flex;
+        justify-content: center;
+
+        width: 100vw;
+
+    }
+
+    .footer {
+        height: 8vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav-links ul li {
+        display: block;
+    }
+
+    .nav-links {
+        position: absolute;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: 0px;
+        background: orangered;
+        text-align: left;
+        z-index: 10;
+        transition: 1s;
+        display: none;
+    }
+
+    .fa {
+        display: block;
+        cursor: pointer;
+    }
+
+    .nav-links ul li {
+        padding: 30px;
+
+
+    }
+
+    .nav-links ul li a {
+        font-size: 20px;
+        color: white;
+    }
+
+    nav .fa {
+        color: white;
+        margin: 10px;
+        font-size: 22px;
+
+    }
+
+    .nav-links ul li a:hover,
+    .nav-links ul .active {
+        color: rgb(11, 13, 83);
+    }
+}
